@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="normalize.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">  
+      <div class="container">
+        <nav>
+          <img src="images/logo.svg" alt="" />
+        </nav>
+        <div class="image-card">
+          <picture>
+            <!-- <source
+              type="image/webp"
+              media="(max-width:600)"
+              srcset="images/hero-mobile.jpg"
+            /> -->
+            <source
+              type="image/webp"
+              media="(min-width:800px)"
+              srcset="images/hero-desktop.jpg"
+            />
+            <img src="images/hero-mobile.jpg" alt="Woman posing" />
+          </picture>
+        </div>
+        <div class="content">
+          <div class="title">
+            <div class="stylize-h1">We're</div>
+            <h1>coming</h1>
+            <h1>soon</h1>
+          </div>
+          <div class="caption">
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <div class="email-form">
+            
+              <input type="email" name="" placeholder="Email Address">
+              <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
